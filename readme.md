@@ -33,5 +33,7 @@ This application uses the following technologies:
 - [Express](http://expressjs.com)
 - [MongoDb](https://www.mongodb.com/)
 - [React](https://facebook.github.io/react/)
+- [create-react-app](https://github.com/facebookincubator/create-react-app)
 - [React Router Redux](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-redux)
 - [Redux](https://github.com/reactjs/redux)
+- [Passportjs](http://passportjs.org/)
