@@ -4,7 +4,7 @@ var sess = require('../middleware/session')
 /* GET home page. */
 router.get('/', function(req, res, next) {
   // sess.a = sess.a + 3
-  res.render('index', { title: 'Home' , loc:'Home', exp:req.cookies.PHPSESSID, user:req.user  });
+  res.render('react', { title: 'Home' , loc:'Home', exp:req.cookies.PHPSESSID, user:req.user  });
 });
 
 

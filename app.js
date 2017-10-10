@@ -107,11 +107,12 @@ passport.use(new LocalStrategy(
   }
 ));
 
-
-app.use('/',  require('./routes/index'));
-app.use('/login', require('./routes/login'));
-app.use('/users', require('./routes/users'));
 app.use('/api',  require('./routes/api'));
+app.use('/*',  require('./routes/index'));
+
+app.use('/login', require('./routes/login'));
+// app.use('/users', require('./routes/users'));
+
 app.get('/logout', function (req, res) {
   req.logout();
   res.redirect('/');
